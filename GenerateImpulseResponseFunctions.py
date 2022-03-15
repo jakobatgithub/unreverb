@@ -28,13 +28,11 @@ for reverberation_time in reverberation_times:
     	reverberation_time=reverberation_time, # Reverberation time T60 (s)
     	nsample=samplerate,           # Number of output samples
 	)
-    print(IR_data.shape)              # (4096, 3)
+    print(IR_data.shape)
     sf.write('random_IRs/IRF_'+str(idx)+'.wav', IR_data, samplerate)
+	#print(signal.shape)
+	# Convolve 2-channel signal with 3 impulse responses
+	#signal = ss.convolve(IR_data, signal)
+	#print(signal.shape)
+
     idx = idx +1	
-
-#print(signal.shape)         # (11462, 2)
-
-# Convolve 2-channel signal with 3 impulse responses
-#signal = ss.convolve(h[:, None, :], signal[:, :, None])
-
-#print(signal.shape)         # (15557, 2, 3)
