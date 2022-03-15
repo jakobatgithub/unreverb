@@ -3,6 +3,9 @@ import scipy.signal as ss
 import soundfile as sf
 import rir_generator as rir
 
+# A script to generate the Impulse Response (IR) Functions of a rectangular room
+# of a given size with given receiever and source positions.
+
 # https://github.com/audiolabs/rir-generator
 # pip install rir-generator
 # pip install SoundFile
