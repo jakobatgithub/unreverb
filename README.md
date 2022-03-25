@@ -17,3 +17,5 @@ https://librosa.org/doc/main/generated/librosa.feature.inverse.mel_to_audio.html
 https://towardsdatascience.com/neural-networks-for-real-time-audio-wavenet-2b5cdf791c4f
 
 https://speechbox.linguistics.northwestern.edu/#!/home
+
+https://www.primacoustic.com/broadway-panels/science/common-reverberation-times/
