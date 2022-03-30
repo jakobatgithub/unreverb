@@ -1,6 +1,6 @@
 # My ignored files and folders
 random_IRs/
-
+.~lock*
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
